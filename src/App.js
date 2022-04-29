@@ -14,8 +14,8 @@ function App() {
 
   return (
   <ThemeContext.Provider value={{theme,changeTheme}}>
-    <div className="App" id="light">
-      <MainPage/>
+    <div className="containerMain" id={theme}>
+      <MainPage cambiarTema={changeTheme}/>
     </div>
   </ThemeContext.Provider>
   );
