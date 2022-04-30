@@ -34,8 +34,8 @@ function MainPage(props) {
 
     return (
         <div className="containerChild">
-            <div className="container-pokemones">
-                <img src={pokemon?.sprites?.front_default} className="imagen" alt={pokemon?.name}/>
+            <div className="container-img">
+                <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemonID}.png`} className="imagen" alt={pokemon?.name} />
             </div>
             <div className="container-pokemones">
                 <h1 className="pokemon-name">{pokemon?.name}</h1>
