@@ -4,7 +4,9 @@ function MainPage(props) {
  
     return (
         <div className="containerChild">
-            <h1>Bienvenido</h1>
+            <img src="nada" className="imagen"/>
+            <h1>Nombre</h1>
+            <button>Ramdon Pokemon</button>
             <button onClick={props.cambiarTema}>cambiar fondo</button>
         </div>
     )

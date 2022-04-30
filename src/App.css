@@ -22,3 +22,19 @@
   align-items: center;
 }
 
+.containerChild{
+  height: 70vh;
+  width: 40%;
+  border-radius: 8px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: 90%;
+  grid-template-rows:30% 20% 10% 10%;
+}
+
+.imagen{
+  width: 50%;
+  height: 30%;
+}
