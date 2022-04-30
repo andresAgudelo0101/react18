@@ -1,0 +1,92 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+
+#dark {
+  background-color: aquamarine;
+}
+
+#light{
+  background-color: rgb(96, 119, 139);
+}
+
+#dark .containerChild{
+  background-color: rgb(255, 214, 127);
+}
+
+#light .containerChild{
+  background-color: rgb(83, 131, 173);
+}
+
+.containerMain{
+  height: 100vh;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+
+.containerChild{
+  height: 70vh;
+  width: 35%;
+  border-radius: 8px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  grid-template-columns: 90%;
+  grid-template-rows:30% 20% 33% auto auto;
+}
+
+.imagen{
+  width: auto;
+  height: 100%;
+  object-fit:unset;
+  border:solid red 1px;
+  object-fit: cover;
+}
+
+.container-pokemones{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-random{
+  background-color: #7F1425;
+  border-radius: 10px;
+  border: none;
+  padding: 0.5rem;
+  color:aliceblue;
+}
+
+.btn-random:hover{
+  opacity: 0.9;
+  color: #dadd0f;
+}
+
+.btn-tema{
+  background-color: #444343;
+  border-radius: 10px;
+  border: none;
+  padding: 0.4rem;
+  color:aliceblue;
+  width: 30%;
+}
+
+.btn-tema:hover{
+  opacity: 0.9;
+  color: #dadd0f;
+}
+
+.pokemon-name{
+  font-family: 'Pokemon Solid', sans-serif;
+  font-size:2.5rem;
+  letter-spacing: 0.8rem;
+  font-weight: 400;
+}
+
+.pokemon-stats{
+  font-size: 1rem;
+  font-weight: 500;
+}
